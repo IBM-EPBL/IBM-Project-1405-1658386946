@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static',filename="registration.css")}}">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title"> ENTER YOUR QUERY&nbsp:</div>
+    <div class="content">
+      <form action="/raiseticket" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Key Compliant</span>
+            <input type="text" placeholder="Enter your complaint key"  required name="kequery">
+          </div>
+          <div class="input-box">
+            <span class="details">Detailed Compliant</span>
+            <input type="textarea" height='10' placeholder="Enter deltailed complaint"  required name="dequery">
+          </div>
+
+           <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username"  required name="username">
+          </div>
+
+          
+          
+        </div>
+        <div class="button">
+          <input type="submit" value="SEND">
+        </div>
+      </form>
+	  
+    </div>
+  </div>
+
+</body>
+</html>

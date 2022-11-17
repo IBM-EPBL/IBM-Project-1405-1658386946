@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={{url_for('static',filename="registration.css")}}>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Customer Care Registry&nbsp:&nbsp Admin Dashboard</div>
+    <div class="content">
+      <form action="/replyadmin" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Ticket ID</span>
+            <input type="text" placeholder="Enter your CCR ID" required name="ticketid">
+          </div>
+      <BR>
+        </div>
+        <div class="button">
+          <input type="button" value="Login" onclick="window.location.href='/replyadmin'"><br><br>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
