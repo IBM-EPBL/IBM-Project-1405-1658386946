@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={{url_for('static',filename="registration.css")}}>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Customer Care Registry&nbsp:&nbsp Status</div>
+    <div class="content">
+        <br><br>
+        Ticket ID: {{ticket_id}}<br><br>
+        Username: {{user_name}}<br><br>
+        Email ID: {{email_id}}<br><br>
+        Key Complaint: {{key_complaint}}<br><br>
+        Detailed Complaint: {{detailed_complaint}}<br><br>
+        Admin reply: {{admin_reply}}<br><br>
+    </div>
+  </div>
+</body>
+</html>

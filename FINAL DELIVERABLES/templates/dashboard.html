@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static',filename="registration.css")}}">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Customer Care Registry&nbsp:&nbsp User Dashboard</div>
+    <div class="content">
+      <form>
+      
+        <div class="button">
+          <input type="button" value="Raise a Ticket" required onclick="window.location.href='/ticket'"><br><br>
+          <input type="button" value="Check Status" required onclick="window.location.href='/checkstatus'">
+        </div>
+      </form>
+	  
+    </div>
+  </div>
+
+</body>
+</html>

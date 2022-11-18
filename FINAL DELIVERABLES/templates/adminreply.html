@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={{url_for('static',filename="registration.css")}}>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+<body>
+  <div style="height: 650px;" class="container">
+    <div class="title">Customer Care Registry&nbsp:&nbsp Reply User Query</div>
+    <div class="content">
+
+              <br><br>
+        Ticket ID: {{ticket_id}}<br><br>
+        Username: {{user_name}}<br><br>
+        Email ID: {{email_id}}<br><br>
+        Key Complaint: {{key_complaint}}<br><br>
+        Detailed Complaint: {{detailed_complaint}}<br><br>
+
+      <form action="/ticketreply" method="POST">
+        <div class="user-details">
+
+          
+          <div class="input-box">
+            <span class="details">Reply Here:</span>
+            <input type="text" placeholder="Enter reply message" required name="reply">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Confirm CCR Tracking ID</span>
+            <input type="text" placeholder="Enter your CCR tracking ID" required name="ticketid">
+          </div>
+      <BR>
+
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit Reply"><br><br>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

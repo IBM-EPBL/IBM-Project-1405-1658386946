@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={{url_for('static',filename="registration.css")}}>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Customer Care Registry&nbsp:&nbsp Login</div>
+    <div class="content">
+      <form action="/login" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required name="username">
+          </div>
+		  <BR>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required name="password">
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Login"><br><br>
+          <input type="button" value="Create an account" onclick="window.location.href='/signup'">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
