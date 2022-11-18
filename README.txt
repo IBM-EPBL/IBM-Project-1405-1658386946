@@ -36,5 +36,4 @@ User: They can register for an account.  After the login, they can create the co
 
 **TECHNICAL ARCHITECTURE:**
 
-
-![image](https://lh4.googleusercontent.com/EMEK4bRAL3kVOoad1JlKSOXk4xNIPimfnuuH_-vNHlH5l8MtbCvIvuh6yl8m-pWvWGLOkrdEhOIeCsqTNgccZJHKU0aMkCrUusWB8DQeKuoMDvmlSkBEuENPLgPcVQ)
+https://lh4.googleusercontent.com/EMEK4bRAL3kVOoad1JlKSOXk4xNIPimfnuuH_-vNHlH5l8MtbCvIvuh6yl8m-pWvWGLOkrdEhOIeCsqTNgccZJHKU0aMkCrUusWB8DQeKuoMDvmlSkBEuENPLgPcVQ
